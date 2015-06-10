@@ -1,0 +1,69 @@
+<html>
+<head>
+<title> MAKE YOUR ORDER </title>
+<style type="text/css">
+a{text-decoration:none;}
+body{background-color:grey;}
+</style>
+</head>
+<body>
+<div align="center" style="padding:5px 5px 5px 5px;background-color:red;width:100%;margin:-7;">
+<a href="index.html"><img src="images/logoname.gif" width="900" height=90"></a>
+<div style=";background-color:red;width:100%;color:black;">
+<p align="left"><input type="button" onclick="window.location.href='index.html'" value="Home"> 
+<input type="button" onclick="window.location.href='services.html'" value="Services"> 
+<input type="button" onclick="window.location.href='order.html'" value="Order">
+<input type="button" onclick="window.location.href='contactus.html'" value="Contact Us">
+<input type="button" onclick="window.location.href='aboutus.html'" value="About Us">
+</p>
+</div>
+</div>
+
+<p align="center" style="color:gold;"> We are committed to delivering promptly!!! </p>
+<div style="padding:5px 5px 5px 5px;font-size:large;font-size:large;background-color:gold;margin-left:2px;float:left;width:20%;">
+<p style="border-top:2px solid black;"><a href="index.html">HOME</a></p>
+<a href="services.html">SERVICES OFFERED</a><br>
+<a href="order.html">MAKE AN ORDER</a><br>
+<a href="contactus.html">CONTACT US</a>
+<p style="border-bottom:2px solid black"><a href="aboutus.html">ABOUT US</a></p>
+<br><br><br><br><br><br><br><br><br>
+</div>
+
+<div style="color:white;background-color:red;width:15%;float:right;padding:10px 10px 10px 10px;margin-right:%;">
+ <h3>DIVINE CREATIONS </h3>
+
+<p align="center"><img src="images/LOGO.gif" width="100" height="100"></p>
+<p align="center" style="background-color:red;"><a href="services.html"> CHECK OUR SERVICES </a><br><br></p>
+<p align="center" style="background-color:lightblue;padding:1px 1px 1px 1px;"> <a href="order.html">ORDER NOW!!</a></p>
+<p align="center"> DIVINECREATIONS: COME BUILD YOUR WEBSITE(S) WITH US...</p>
+</div>
+
+
+<div align="justify" style="color:blue;font-size:x-large;font-weight:bold;background-color:silver;width:57%;padding:10px 10px 10px 10px;border:2px solid black;margin-left:22%;">
+
+<h3 align="center" style="color:purple;"> MAKE YOUR ORDER </h3>
+<form method="post" action="sendorder.php">
+Name:<br>
+<input type="text" size="40" name="Name" placeholder="Type in Your Name"><br><br>
+E-mail:<br>
+<input type="text" size="40" name="email" placeholder="Type in Your E-mail"><br><br>
+Subject:<br>
+<input type="text" size="40" name="subject" placeholder="Type in The Subject of Your Order"><br><br>
+Order Description:<br>
+<textarea name="message" rows="8" cols="40" placeholder="Describe what you want">
+</textarea><br><br>
+<input type="submit" value="Send"><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div><br>
+
+<div style="background-color:border-top:3px solid black;color:white;width:100%;">
+
+<p align="center">
+<a href="index.html">Home|</a>
+<a href="services.html">Our Services|</a>
+<a href="order.html">Order|</a><br>
+<a href="contactus.html">Contact Us| </a>
+<a href="aboutus.html">About Us|</a>
+Powered by: High Flyers Company</p>
+<p align="center" style="font-size:small;"> copyright &copy <?php echo date("y"); ?> </p>
+</body>
+</html>
